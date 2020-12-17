@@ -6,10 +6,10 @@ int main() {
 	printf("vui long nhap thang");
 	scanf("%c", &thang);
 	switch(thang){
-		case '1':
+                case '1':
 		 printf("31 ngay");
      break;
-    case '2': 
+                case '2': 
 		 printf("28 ngay");
      break;
 		case '3': 
