@@ -12,7 +12,10 @@ int main(){
       printf (" a - b = %d",a -b);
       break;
       default:
-       printf(" nhap cong hoac tru ");
+       printf(" Vui long nhap cong hoac tru ");
   }
+  getchar;
   return 0;
 }
+
+
