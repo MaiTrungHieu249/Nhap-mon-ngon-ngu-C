@@ -13,3 +13,16 @@ int main(void) {
 	printf("%d",s);
 return 0;
 }
+
+
+#include<stdio.h>
+int main(){
+    int n=123,s=0;
+    printf("%d",n);
+    while(n!=0){ 
+        s=s+ n%10;
+        n=n/10;
+    }    
+    printf("%d",s);
+     return 0;
+}
