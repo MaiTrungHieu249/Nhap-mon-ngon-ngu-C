@@ -13,7 +13,7 @@ int main(void){
  for(int i = 0; i < 4; i++){
    tong=tong+a[i];
 }
-    printf("%d",sum);
+    printf("%d",tong);
  
      return 0;
 }
