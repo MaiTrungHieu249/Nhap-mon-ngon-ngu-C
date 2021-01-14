@@ -9,9 +9,9 @@ int main(void){
     a[3] = 2;   // ngan thu 4
     
     //tinh tong cac phan tu mang a  
-   int sum = 0;
+   int tong = 0;
  for(int i = 0; i < 4; i++){
-   sum=sum+a[i];
+   tong=tong+a[i];
 }
     printf("%d",sum);
  
