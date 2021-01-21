@@ -23,7 +23,7 @@ int main(void){
  		printf(" %d",a[i]);
 	 }
 	 
-  //nhap 1 so nguyen bat ky tu ban phim
+  //nhap 1 so nguyen m bat ky tu ban phim
   printf ("m");
   scanf("%d", &m);
   
