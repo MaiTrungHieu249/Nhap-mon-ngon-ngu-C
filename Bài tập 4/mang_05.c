@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 
 int main(void){
   int n,m;
@@ -22,13 +22,17 @@ int main(void){
  	for(int i=0;i<n;i++){
  		printf(" %d",a[i]);
 	 }
-	 
+  	 
   //nhap 1 so nguyen m bat ky tu ban phim
   printf ("m");
   scanf("%d", &m);
-  
-  
-  
+  	for(int i = 0; i < n; i++ ){
+    if(a[i] == m)
+    printf("\nco ton tai");
+    
+  if(a[i]!=m)
+  printf("\nkhong ton tai");
+  }
   
      return 0;
 } 
