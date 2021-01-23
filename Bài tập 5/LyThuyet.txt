@@ -1,1 +1,59 @@
+I. Kiến thức:
+A) 
+Bộ chữ viết trong ngôn ngữ C bao gồm những ký tự, ký hiệu sau: (phân biệt chữ in hoa và in thường):
+26 chữ cái latinh hoa A,B,C...Z.
+26 chữ cái latinh thường a,b,c ...z.
+10 chữ số thập phân 0,1,2...9.
+Các ký hiệu toán học: +, -, *, /, =, <, >, (, ).
+Các ký hiệu đặc biệt: :. , ; " ' _ @ # $ ! ^ [ ] { }....
+Dấu cách hay khoảng trống, xuống hàng (\n) và tab (\t).
 
+B)
+Các kiểu dữ liệu cơ sở trong C:
+ Kiểu số nguyên, kiểu số thực, kiểu ký tự, kiểu void.
+
+C)
+Khái niệm và cú pháp khai báo biến trong ngôn ngữ C:
+Khái niệm:
+Biến là đại lượng có thể thay đổi giá trị. Các biến được khai báo bằng cách đặt tên các biến vào phần khai báo biến ở đầu chương trình, sau từ khóa VAR.
+Biến có thể được khai báo theo cú pháp:
+Kiểu_dữ_liệu Tên_biến;
+Trong đó: Kiểu_dữ_liệu là kiểu dữ liệu; Tên_biến là tên biến; Kết thúc khai báo biến là dấu chấm phẩy.
+Ví dụ: int num; -> int là kiểu dữ liệu và num là tên biến.
+
+D) 
+Khái niệm biến toàn cục và biến cục bộ trong ngôn ngữ C:
+Biến cục bộ hay địa phương (local variable):
+• Được khai báo bên trong các hàm hay khối lệnh (ví dụ biến đếm lệnhlặp for).
+• Chỉ có thể được sử dụng trong phạm vi hàm hay khối lệnh.
+• Các tham số của hàm (nếu có) là các biến cục bộ của hàm đó.
+
+Biến toàn cục (global variable):
+• Được khai báo bên ngoài tất cả các hàm (kể cả main).
+• Thường được khai báo tại Khối Khai Báo.
+• Có thể được sử dụng tại mọi vị trí trong chương trình như các hàm,
+khối lệnh lặp for hay while.
+
+E)
+Khái niệm và phân loại hàm trong ngôn ngữ C:
+Khái niệm:
+• Hàm là một khối lệnh (nhiều lệnh) thực hiện một nhiệm vụ cụ thể nào
+đó (tính tổng, hiển thị thông báo đến người dùng,…).
+• Một cách hiểu khác về hàm: hàm là một sự chia nhỏ của chương
+trình.
+
+Hàm có 2 loại:
+• Hàm thư viện chuẩn (Standard library functions):
+-Là các hàm được xây dựng sẵn (build-in functions) trong ngôn ngữ C như hàm
+scanf, printf, getchar,….
+-Các hàm này được định nghĩa trong các tập tin có phần mở rộng .h như
+stdio.h, conio.h,…Các tập tin này phải được gộp vào chương trình thông qua
+chỉ định #include.
+
+F)
+Trình bày nguyên tắc hoạt động của Hàm trong ngôn ngữ C:
+Cấu trúc một chương trình C:
+Một chương trình C gồm 3 khối cơ bản:
+-Khối khai báo: khai báo sử dụng thư viện (#include), khai báo hàm,khai báo hằng số, khai báo biến (toàn cục),khai báo kiểu do ngườidùng định nghĩa,….
+-Khối hàm main: chứa các biến và lời gọi hàm cần thiết cho chương trình.
+-Khối định nghĩa hàm: chứa tất cả các định nghĩa hàm đã khai báo trong khối khai báo.
