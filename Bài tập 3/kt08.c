@@ -2,13 +2,17 @@
 
 int main(void) {
   float a  , b ;
+  
 // nhap a, b tu ban phim
+  
   printf("nhap so thuc a :");
   scanf("%f", &a);
   printf("nhap so thuc b :");
   scanf("%f", &b);
   float c = a * b;
+  
   // xet dieu kien 
+  
   if(c > 0){
     printf(" %.f va %.f cung dau", a, b);
     }else if( c < 0){
@@ -22,5 +26,8 @@ int main(void) {
         printf("khong xac dinh vi b bang 0");
       }
     }  
+  
+  
+  
   return 0;
 }
